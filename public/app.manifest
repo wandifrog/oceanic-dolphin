@@ -1,0 +1,71 @@
+{
+  "short_name": "Fish catalogue",
+  "name": "Fish catalogue",
+  "icons": [
+    {
+      "src": "assets/icons/PORO-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "assets/icons/PORO-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "minimal-ui",
+  "id": "/?source=pwa",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#F5F5F5",
+  "background_color": "#F5F5F5",
+  "shortcuts": [
+    {
+      "name": "eFishery fish list",
+      "short_name": "Fish List",
+      "description": "eFishery fish list",
+      "url": "/list",
+      "icons": [{ "src": "assets/icons/PORO-128.png", "sizes": "128x128" }]
+    },
+    {
+      "name": "eFishery add new Fish",
+      "short_name": "Add Fish",
+      "description": "eFishery add new Fish",
+      "url": "/add",
+      "icons": [{ "src": "assets/icons/PORO-128.png", "sizes": "128x128" }]
+    }
+  ],
+  "description": "eFishery Fish catalogue",
+  "screenshots": [
+    {
+      "src": "assets/images/ss1.png",
+      "type": "image/png",
+      "sizes": "823x1600",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/ss2.png",
+      "type": "image/png",
+      "sizes": "815x1600",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/ss3.png",
+      "type": "image/png",
+      "sizes": "819x1600",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/ss4.png",
+      "type": "image/png",
+      "sizes": "821x1599",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/ss5.png",
+      "type": "image/png",
+      "sizes": "822x1600",
+      "form_factor": "narrow"
+    }
+  ]
+}
